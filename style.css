@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda+One&display=swap");
+
+:root {
+  --primary-color: #be9c79;
+  --secondary-color: #303130;
+  --tertiary-color: #fdfefd;
+  --primary-font: "Nunito", sans-serif;
+  --secondary-font: "Merienda One", cursive;
+  --primary-font-size: 18px;
+  --secondary-font-size: 50px;
+  --background-image: url(/images/home-bg.jpg);
+}
+
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--primary-font);
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+} */
+
+/* html{
+    scroll-padding-top: 50px;
+} */
+/* .align {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 30px;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  background: var(--tertiary-color);
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+}
+
+nav .logo {
+  margin-left: 150px;
+  padding: 10px 0;
+} */
+
+/* nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 150px;
+  border: 2px solid red;
+  width: 600px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: var(--primary-font-size);
+  line-height: 5px;
+}
+
+nav ul li a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+} */
+ 
+
+
+.navbar-brand{
+  width: 60px;
+  /* border: 1px solid red; */
+}
+
+.navbar-brand img{
+  object-fit: contain;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+header .masHead {
+  background: linear-gradient(90deg, var(--tertiary-color), transparent 70%),
+    url(images/home-bg-1200.jpg), no-repeat;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  padding: 302px 0;
+
+}
+
+
+.masHead .jumbotron{
+  background: transparent;
+}
+
+.jumbotron .display-4{
+  font-family: var(--secondary-font);
+}
+
+.jumbotron .lead{
+  font-family: var(--primary-font);
+  max-width: 700px;
+}
+
+.jumbotron .btn{
+  background-color: var(--primary-color); 
+  border: none;
+}
+/* .masHead div {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 300px;
+  overflow: hidden;
+}
+
+.masHead h3 {
+  font-family: var(--secondary-font);
+  font-size: var(--secondary-font-size);
+}
+
+.masHead p {
+  text-align: center;
+  font-size: var(--primary-font-size);
+  line-height: 30px;
+}
+
+.masHead a button {
+  padding: 7px 30px;
+  border: none;
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+  margin-top: 20px;
+  font-size: var(--primary-font);
+  cursor: pointer;
+}
+
+.masHead a button:hover {
+  background: var(--secondary-color);
+} */
+
+/* ----------------------------------------about------------------------------ */
+.about .about-desc h4 {
+  font-family: var(--secondary-font);
+}
+
+.about .about-desc p {
+  font-family: var(--primary-font);
+}
+.about .btn{
+  background-color: var(--primary-color);
+}
+
+.about .about-desc .btn:hover {
+  background-color: var(--secondary-color);
+}
+
+/* ----------------------------------------facility------------------------------ */
+
+.heading-img img{
+  width: 200px;
+  object-fit: cover;
+}
+
+.heading-img h3{
+  font-family: var(--secondary-font);
+  font-size: var(--secondary-font-size);
+}
+
+.facilities .coffee h3{
+  font-size: 20px;
+}
+/* ----------------------------------menu---------------------------------- */
+
+.heading-img h3{
+  font-family: var(--secondary-font);
+  font-size: 40px;
+}
+  
+  .menu .heading-img img {
+    width: 200px;
+  }
+  
+  .item .itemImg {
+    max-width: 100%;
+    min-width: 80%;
+  }
+  .item img {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+  }
+  
+
+/* ----------------------------------gallery---------------------------------- */
+.gallery .heading-img img {
+  width: 200px;
+  object-fit: cover;
+}
+
+.gallery h3 {
+  font-family: var(--secondary-font);
+  font-size: 40px;
+}
+
+.photos .photo img {
+  width: 100%;
+  object-fit: contain;
+  aspect-ratio: 4/3;
+}
+
+/* ----------------------------------team---------------------------------- */
+.team .heading-img img {
+  width: 200px;
+}
+
+.team h3 {
+  font-family: var(--secondary-font);
+  font-size: 40px;
+}
+
+.team-photos .person p {
+  font-family: var(--primary-font);
+}
+
+.team-photos .person div img {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+/* ----------------------------------footer---------------------------------- */
+.contact .heading-img img {
+  width: 200px;
+}
+
+.contact h3 {
+  font-family: var(--secondary-font);
+  font-size: 40px;
+}
+
+.contact-img img {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+.contact-form h4 {
+  font-size: 20px;
+  font-family: var(--primary-font);
+
+}
+
+.contact-form button {
+  background: var(--primary-color);
+  font-size: var(--primary-font-size);
+}
+
+.contact-form button:hover {
+  background: black;
+}

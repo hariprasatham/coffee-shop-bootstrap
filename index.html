@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="images/logo60.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+      <div class="navContainer">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                  <a class="navbar-brand" href="#">
+                    <img src="images/logo60.png" alt="">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="masHead" id="masHead">
+        <!-- <div class="desc">
+          <h3>Coffee Heaven</h3>
+        <p>
+          Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Ut Offica,
+          Accusantium Molitia Laudantium Dolorum Dolore.
+        </p>
+        <a href="#about"><button>About Us</button></a>
+        </div> -->
+        <div class="container">
+          <div class="row">
+            <div class="jumbotron col-xl-6 text-center">
+              <h1 class="display-4 text-left">Coffee Heaven</h1>
+              <p class="lead">Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Ut Offica,
+                Accusantium Molitia Laudantium Dolorum Dolore.</p>
+              <a class="btn btn-primary btn-lg" href="#about" role="button">About Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+
+<!----------------------------------about----------------------------------->
+<section class="about align" id="about">
+  <div class="aboutContainer">
+    <div class="container">
+      <div class="row">
+        <div class="about-img col-xl-6 col-lg-6 col-md-12 col-sm-12">
+          <img src="images/about-img.svg" alt="" />
+        </div>
+        <div class="about-desc col-xl-6  col-lg-6 col-md-12 col-sm-12 d-flex flex-column">
+          <h4 class="fs-1 fw-bold mb-4 mt-5" >A Cup Of Coffee Can <br>Complete Your Day</h4>
+          <p class="fs-6">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Necessitatibus, blanditiis. Ab veniam repellat repellendus,
+            obcaecati accusamus dolore totam id, possimus voluptate, ipsam
+            quibusdam dicta aliquam illum iusto sapiente porro quidem.
+          </p>
+          <a href="#menu" class="btn btn-primary border-0 w-25">Our Menu</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+      
+<!----------------------------------facility----------------------------------->
+<section class="facility align" id="facility">
+  <div class="facilityContainer">
+    <div class="container">
+      <div class="row">
+        <div class="heading-img col-xl-12 col-lg-12 col-md-12 col-sm-12 d-flex flex-column align-items-center mt-3 mb-3">
+          <img class="mb-2" src="images/heading-img.png" alt="">
+          <h3>Our Facility</h3>
+         </div>
+      </div>
+      <div class="facilities row">
+        <div class="varity-of-coffee coffee col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex flex-column align-items-center text-center">
+          <img class="mb-3" src="images/icon-1.png" alt="">
+          <h3 class="fw-bold">Varities Of Coffee</h3>
+          <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit.</p>
+        </div>
+        <div class="coffee-bean coffee col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex flex-column align-items-center text-center">
+          <img class="mb-3" src="images/icon-2.png" alt="">
+          <h3 class="fw-bold">Varities Of Coffee</h3>
+          <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit.</p>
+        </div>
+        <div class="breakfast-and-sweet coffee col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex flex-column align-items-center text-center">
+          <img class="mb-3" src="images/icon-3.png" alt="">
+          <h3 class="fw-bold">Varities Of Coffee</h3>
+          <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit.</p>
+        </div>
+        <div class="read-to-go-coffee coffee col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex flex-column align-items-center text-center">
+          <img class="mb-3" src="images/icon-4.png" alt="">
+          <h3 class="fw-bold">Varities Of Coffee</h3>
+          <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit.</p>
+        </div>
+       </div>
+    </div>
+  </div>
+  
+  
+
+ </section>
+  
+<!----------------------------------menu----------------------------------->
+
+<section class="menu align" id="menu">
+  <div class="container">
+    <div class="row">
+      <div class="heading-img col-xl-12 col-lg-12 col-md-12-col-sm-12 text-center mt-3 mb-3">
+        <img  src="images/heading-img.png" alt="">
+        <h3 class="mt-2">Popular Menu</h3>
+       </div>
+
+       <div class="menus row">
+        <div class="item col-xl-4 col-lg-4 col-md-6 col-sm-12 d-flex flex-column align-items-center">
+          <div class="itemImg"><img src="images/menu-1.png" alt=""></div>
+          <div class="itemDetails"><p>Love You Coffee</p></div>
+        </div>
+        <div class="item col-xl-4 col-lg-4 col-md-6 col-sm-12 d-flex flex-column align-items-center">
+          <div class="itemImg"><img src="images/menu-2.png" alt=""></div>
+          <div class="itemDetails"><p>Love You Coffee</p></div>
+        </div>
+        <div class="item col-xl-4 col-lg-4 col-md-6 col-sm-12 d-flex flex-column align-items-center">
+          <div class="itemImg"><img src="images/menu-3.png" alt=""></div>
+          <div class="itemDetails"><p>Love You Coffee</p></div>
+        </div>
+        <div class="item col-xl-4 col-lg-4 col-md-6 col-sm-12 d-flex flex-column align-items-center">
+          <div class="itemImg"><img src="images/menu-4.png" alt=""></div>
+          <div class="itemDetails"><p>Love You Coffee</p></div>
+        </div>
+        <div class="item col-xl-4 col-lg-4 col-md-6 col-sm-12 d-flex flex-column align-items-center">
+          <div class="itemImg"><img src="images/menu-5.png" alt=""></div>
+          <div class="itemDetails"><p>Love You Coffee</p></div>
+        </div>
+        <div class="item col-xl-4 col-lg-4 col-md-6 col-sm-12 d-flex flex-column align-items-center"     >
+          <div class="itemImg"><img src="images/menu-6.png" alt=""></div>
+          <div class="itemDetails"><p>Love You Coffee</p></div>
+        </div>
+     </div>
+
+    </div>
+  </div>
+  
+  
+
+ </section>
+       
+<!----------------------------------gallery----------------------------------->
+<section class="gallery align" id="gallery">
+  <div class="galleryContainer">
+    <div class="container">
+      <div class="row">
+        <div
+          class="heading-img col-xl-12 col-lg-12 col-md-12 col-sm-12 text-center mt-3 mb-3"
+        >
+          <img src="images/heading-img.png" alt="" />
+          <h3 class="mt-2">Our Gallery</h3>
+        </div>
+
+        <div class="photos row">
+          <div class="photo col-xl-4 col-lg- 4 col-md-6 col-sm-12">
+            <img src="images/gallery-1.webp" alt="" />
+          </div>
+          <div class=" photo col-xl-4 col-lg- 4 col-md-6 col-sm-12">
+            <img src="images/gallery-2.webp" alt="" />
+          </div>
+          <div class="photo col-xl-4 col-lg- 4 col-md-6 col-sm-12">
+            <img src="images/gallery-3.webp" alt="" />
+          </div>
+          <div class="photo col-xl-4 col-lg- 4 col-md-6 col-sm-12">
+            <img src="images/gallery-4.webp" alt="" />
+          </div>
+          <div class="photo col-xl-4 col-lg- 4 col-md-6 col-sm-12">
+            <img src="images/gallery-5.webp" alt="" />
+          </div>
+          <div class="photo col-xl-4 col-lg- 4 col-md-6 col-sm-12">
+            <img src="images/gallery-6.webp" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+       
+<!----------------------------------team----------------------------------->
+<section class="team align" id="team">
+  <div class="teamContainer">
+    <div class="container">
+      <div class="row">
+        <div class="heading-img col-xl-12 col-lg-12 col-md-12 col-sm-12 text-center mt-3 mb-3">
+          <img src="images/heading-img.png" alt="" />
+          <h3 class="mt-2">Our Team</h3>
+        </div>
+
+        <div class="team-photos row text-center mx-auto">
+          <div class="person col-xl-4 col-lg-4 col-md-6 col-sm-12  mx-auto ">
+            <div><img src="images/our-team-1.jpg" alt="" /> </div>
+            <p class="mt-3">Jhon Deo</p>
+          </div>
+          <div class="person col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div><img src="images/our-team-2.jpg" alt="" /></div>
+            <p class="mt-3">Jhon Deo</p>
+          </div>
+          <div class="person col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div><img src="images/our-team-3.jpg" alt="" /></div>
+            <p class="mt-3">Jhon Deo</p>
+          </div>
+          <div class="person col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div><img src="images/our-team-4.jpg" alt="" /></div>
+            <p class="mt-3">Jhon Deo</p>
+          </div>
+          <div class="person col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div><img src="images/our-team-5.jpg" alt="" /></div>
+            <p class="mt-3">Jhon Deo</p>
+          </div>
+          <div class="person col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div><img src="images/our-team-6.jpg" alt="" /></div>
+            <p class="mt-3">Jhon Deo</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+
+</section>
+    </main>
+    <footer>
+      <!----------------------------------contacts----------------------------------->
+      <section class="contact align" id="contact">
+        <div class="contactContainer">
+          <div class="container">
+            <div class="row">
+              <div class="heading-img col-xl-12 col-lg-12 col-md-12 col-sm-12 text-center mt-3 mb-3">
+                <img src="images/heading-img.png" alt="" />
+                <h3 class="mt-2">Contact us</h3>
+              </div>
+            </div>
+
+
+            <div class="contact-us row">
+              <div class="contact-img col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <img src="images/contact-img.png" alt="" />
+              </div>
+              <div class="contact-form col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center">
+                <form method="post" class="border p-3 my-auto mw-75 w-75" data-form-title="CONTACT US">
+                  <input type="hidden" data-form-email="true">
+                  <div class="form-group py-3">
+                    <input type="text" class="form-control" name="name" required="" placeholder="Name*" data-form-field="Name">
+                  </div>
+                  <div class="form-group py-3">
+                    <input type="email" class="form-control" name="email" required="" placeholder="Email*" data-form-field="Email">
+                  </div>
+                  <div class="form-group py-3">
+                    <input type="tel" class="form-control" name="phone" placeholder="Phone" data-form-field="Phone">
+                  </div>
+                  <div class="form-group py-3">
+                    <textarea class="form-control" name="message" placeholder="Message" rows="7" data-form-field="Message"></textarea>
+                  </div>
+                  <div class="text-center">
+                    <button type="submit" class="btn btn-lg ">CONTACT US</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+
+            <div class="infobar row text-center">
+              <div class="email d-flex flex-column justify-content-center col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                <h4>Our Email</h4>
+                <p>Shaikhans@Gmail.com</p>
+                <p>Ansabhai@Gmail.com</p>
+              </div>
+              <div class="timing d-flex flex-column justify-content-center col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                <div class="icon"><i class="fa-solid fa-clock"></i></div>
+                <h4>Opening Hours</h4>
+                <p>07:00 To 09:00</p>
+              </div>
+              <div class="location d-flex flex-column justify-content-center col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                <h4>Shop Location</h4>
+                <p>Mumbai, India - 400104</p>
+              </div>
+              <div class="mobile d-flex flex-column justify-content-center col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                <h4>Our Number</h4>
+                <p>+123-456-7891</p>
+                <p>+123-456-7891</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="copyWrite row">
+          <p class="text-center">
+            Copyright @ 2022 By <span>Mr.Web Designer</span> | All Rights
+            Reserved!
+          </p>
+        </div>
+
+      </section>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  </body>
+</html>
